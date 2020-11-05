@@ -1,0 +1,199 @@
+
+.Content{
+    text-align: center;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+
+.Water{
+background: radial-gradient(circle, rgba(113, 255, 246, 0.308) 0%, rgba(216, 246, 247, 0.459) 100%);
+}
+
+.VileTop, .VileUpperOne, .VileUpperTwo, .VileUpper, .VileUpperLight, .VileMiddle, .VileMiddleLight, .VileBottom, .VileBottomLight, .Flower{
+/* margin: auto; */
+margin: auto;
+}
+
+
+.VileTop{
+    background-color: lightblue;
+    border: 2px solid rgb(81, 194, 231);
+    width: 45%;
+    height: 5px;
+    border-radius: 25px;
+}
+
+.VileUpperOne{
+    width: 40%;
+    height: 50px;
+    border-left: 2px solid rgb(81, 194, 231);
+    border-right: 2px solid rgb(81, 194, 231);
+
+    }
+
+.VileUpperTwo{
+width: 40%;
+height: 50px;
+border-left: 2px solid rgb(81, 194, 231);
+border-right: 2px solid rgb(81, 194, 231);
+
+}
+
+.VileUpper{
+    width: 40%;
+    height: 170px;
+    border-left: 2px solid rgb(81, 194, 231);
+    border-right: 2px solid rgb(81, 194, 231);
+
+    }
+
+.VileUpperLight{
+    width: 80%;
+    height: 90%;
+    border-right: 3px solid rgb(255, 255, 255);
+}
+
+.VileMiddle{
+    width: 40%;
+    height: 170px;
+    border-left: 2px solid rgb(81, 194, 231);
+    border-right: 2px solid rgb(81, 194, 231);
+
+}
+
+.VileMiddleLight{
+    width: 80%;
+    height: 100%;
+    border-right: 3px solid rgb(255, 255, 255);
+}
+
+.VileBottom{
+    width: 40%;
+    height: 170px;
+    border-radius: 0px 0px 100px 100px;
+    border-left: 2px solid rgb(81, 194, 231);
+    border-right: 2px solid rgb(81, 194, 231);
+}
+
+.VileBottomLight{
+    width: 80%;
+    height: 90%;
+    border-radius: 0px 0px 100px 100px;
+    border-right: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.Flower{
+    width: 50%;
+    height: 50%;
+    border-radius: 150% 150% 100px 100px;
+}
+
+
+
+@media(min-width: 500px) and (min-height :400px){
+    .VileTop{
+    width: 70px;
+    height: 5px;
+    border-radius: 25px;
+    }
+
+    .VileUpperOne{
+    width: 50px;
+    height: 50px;
+    }
+    .VileUpperTwo{
+        width: 50px;
+        height: 50px;
+        }
+
+
+    .VileBottom{
+    width: 50px;
+    height: 120px;
+    
+    }
+    .VileMiddle{
+        width: 50px;
+        height: 120px;
+    }
+
+    .VileUpper{
+        width: 50px;
+        height: 120px;
+    }
+
+}
+
+@media(min-width: 500px) and (min-height :401px){
+    .VileTop{
+    width: 170px;
+    height: 5px;
+    }
+    .VileBottom{
+    width: 150px;
+    height: 200px;
+
+    }
+    
+      .VileMiddle{
+    width: 150px;
+    height: 170px;
+
+    }
+      .VileUpper{
+    width: 150px;
+    height: 170px;
+
+    }
+
+    .VileUpperOne{
+    width: 150px;
+    height: 20px;
+    }
+
+    .VileUpperTwo{
+    width: 150px;
+    height: 20px;
+    }
+
+}
+@media(min-width: 1000px) and (min-height :700px){
+    .VileTop{
+        width: 170px;
+        height: 5px;
+    }
+
+    .VileBottom{
+    width: 150px;
+    height: 230px;
+
+    }
+
+     .VileMiddle{
+    width: 150px;
+    height: 180px;
+
+    }
+     .VileUpper{
+    width: 150px;
+    height: 180px;
+    }
+
+    .VileUpperOne{
+    width: 150px;
+    height: 20px;
+    }
+    .VileUpperTwo{
+    width: 150px;
+    height: 20px;
+    }
+   
+
+}
+
+
+    

@@ -1,0 +1,52 @@
+.Ingredients{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;    
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto;
+    margin-top: 3%;
+    padding: 20px 0;
+     background: radial-gradient(circle, rgba(175, 78, 255, 0.777) 0%, rgba(97, 20, 112, 0.782) 100%); 
+    color: white;
+}
+
+.Option{
+     background: radial-gradient(circle, rgba(175, 78, 255, 0.777) 0%, rgba(97, 20, 112, 0.782) 100%); 
+    color: black;
+}
+
+.Hide{
+    display: none;
+}
+
+
+@media(min-width: 500px) and (min-height :400px){
+.Ingredients{
+      display: inline-flex;
+    flex-flow: row;
+    width: 20%;
+
+ }
+
+}
+
+@media(min-width: 500px) and (min-height :401px){
+.Ingredients{
+    display: inline-flex;
+    flex-flow: row;
+    width: 20%;
+ }
+
+}
+@media(min-width: 1000px) and (min-height :700px){
+ 
+  .Ingredients{
+    display: inline-flex;
+    flex-flow: row;
+    width: 20%;
+
+ }
+
+}
