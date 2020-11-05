@@ -2,7 +2,8 @@
     width: 100%;
     padding: 2%;
     margin-right: 4%;
-    /* background-color: rgba(224, 220, 198, 0.932); */
+   
+
     background-image: url(../../assets/scroll.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -10,9 +11,7 @@
     text-align: center;
     /* display: inline-block; */
     margin: auto;
-    /* position: absolute; */
-    /* top: 0%;
-    right: 4%; */
+
 
     color: purple;
     overflow: scroll;
@@ -48,24 +47,31 @@ display: none;
     margin: auto;
     line-height: 30px;
     font-family: sans-serif;
-    /* font-family: cursive; */
+    font-family: cursive;
     
 }
 
 @media(min-width: 500px) and (min-height :400px){
- .MixerContent{
-   
-
- }
-
-}
-
-@media(min-width: 600px) and (min-height :401px){
+ 
  .MixerContent{
  position: absolute; 
+    position: absolute; 
      top: 0%;
-    right: 4%;
-    width: 30%;
+    right: 23%;
+    width:30%;
+    margin-top: 2%;
+    overflow: auto;
+ }
+}
+
+@media(min-width: 500px) and (min-height :401px){
+
+ .MixerContent{
+ position: absolute; 
+    position: absolute; 
+     top: 0%;
+    right: 23%;
+    width:30%;
     margin-top: 2%;
     overflow: auto;
  }
@@ -73,16 +79,14 @@ display: none;
 }
 @media(min-width: 1000px) and (min-height :700px){
  
-   .MixerContent{
+
+ .MixerContent{
     position: absolute; 
      top: 0%;
-    right: 4%;
+    right: 15%;
     width: 30%;
     margin-top: 2%;
     overflow: auto;
-
-
-
  } 
 
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Vile from "../Components/Vile/Vile"
+import classes from "../PotionBuilder/PotionBuilder.module.css"
 
 import Aux from '../hoc/Auxillary';
 import PotionIngredients from '../Components/PotionIngredients/PotionIngredients';
@@ -146,7 +147,7 @@ class PotionBuilder extends Component {
     render(){
         return(
         <Aux>
-        <div>
+        <div className={classes.Content}>
            <Vile
             ingredients={this.state.options}
             mixed={this.state.mixed}

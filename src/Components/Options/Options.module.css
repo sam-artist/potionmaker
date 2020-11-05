@@ -1,4 +1,5 @@
 .Ingredients{
+
     width: 50%;
     text-align: center;
     display: flex;
@@ -6,7 +7,7 @@
     align-items: center;
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 5%;
     padding: 20px 0;
      background: radial-gradient(circle, rgba(175, 78, 255, 0.777) 0%, rgba(97, 20, 112, 0.782) 100%); 
     color: white;

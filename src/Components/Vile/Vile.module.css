@@ -9,12 +9,11 @@
 
 
 .Water{
-background: radial-gradient(circle, rgba(113, 255, 246, 0.308) 0%, rgba(216, 246, 247, 0.459) 100%);
+    background: radial-gradient(circle, rgba(113, 255, 246, 0.308) 0%, rgba(216, 246, 247, 0.459) 100%);
 }
 
 .VileTop, .VileUpperOne, .VileUpperTwo, .VileUpper, .VileUpperLight, .VileMiddle, .VileMiddleLight, .VileBottom, .VileBottomLight, .Flower{
-/* margin: auto; */
-margin: auto;
+    margin: auto;
 }
 
 
@@ -126,6 +125,8 @@ border-right: 2px solid rgb(81, 194, 231);
         height: 120px;
     }
 
+   
+   
 }
 
 @media(min-width: 500px) and (min-height :401px){
@@ -160,6 +161,14 @@ border-right: 2px solid rgb(81, 194, 231);
     height: 20px;
     }
 
+    
+    .VileTop{
+        margin-left: 24.5%;
+    }
+    .VileBottom, .VileMiddle, .VileUpper, .VileUpperOne, .VileUpperTwo{
+        margin-left: 25%;
+    }
+
 }
 @media(min-width: 1000px) and (min-height :700px){
     .VileTop{
@@ -170,7 +179,7 @@ border-right: 2px solid rgb(81, 194, 231);
     .VileBottom{
     width: 150px;
     height: 230px;
-
+   
     }
 
      .VileMiddle{
@@ -192,6 +201,15 @@ border-right: 2px solid rgb(81, 194, 231);
     height: 20px;
     }
    
+
+
+    .VileTop{
+        margin-left: 24.3%;
+    }
+    .VileBottom, .VileMiddle, .VileUpper, .VileUpperOne, .VileUpperTwo{
+        margin-left: 25%;
+    }
+    
 
 }
 
